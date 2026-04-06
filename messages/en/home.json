@@ -1,0 +1,91 @@
+{
+  "hero": {
+    "system_tag": "SYS.ONLINE // INDUSTRY 4.0 → 5.0 SOLUTIONS",
+    "h1_line1": "INDUSTRIAL",
+    "h1_line2": "INTELLIGENCE",
+    "h1_line3": "REDEFINED",
+    "subtext": "Nord Axis Tech bridges traditional industry and tomorrow's digital frontier — combining AI, robotics, sustainable energy and human-centric engineering into one integrated platform.",
+    "cta_primary": "Explore Services",
+    "cta_secondary": "Talk to Us"
+  },
+  "stats": {
+    "stat1_value": "4.0→5.0",
+    "stat1_label": "Industry Evolution",
+    "stat2_value": "360°",
+    "stat2_label": "Digital Coverage",
+    "stat3_value": "0 CO₂",
+    "stat3_label": "Energy 2.0 Goal"
+  },
+  "services_section": {
+    "label_num": "01",
+    "label": "Our Services",
+    "title": "END-TO-END INDUSTRIAL SOLUTIONS"
+  },
+  "services": [
+    {
+      "number": "01",
+      "title": "Industrial Intelligence",
+      "description": "AI models and data science pipelines tailored for industrial environments — from predictive analytics to real-time decision engines.",
+      "tags": ["AI Models", "Data Science", "Predictive Analytics", "Machine Learning"]
+    },
+    {
+      "number": "02",
+      "title": "Maintenance 4.0→5.0",
+      "description": "IoT-connected condition monitoring and cobot-assisted maintenance workflows that eliminate unplanned downtime.",
+      "tags": ["IoT Sensors", "Cobots", "Condition Monitoring", "CMMS Integration"]
+    },
+    {
+      "number": "03",
+      "title": "Engineering & Automation",
+      "description": "Full-stack robotics integration, digital twin modelling, and smart production line design for the factory of the future.",
+      "tags": ["Robotics", "Digital Twins", "Smart Lines", "PLC Integration"]
+    },
+    {
+      "number": "04",
+      "title": "Sustainable Energy",
+      "description": "Energy 2.0 audit, renewable integration, and real-time ESG monitoring to meet compliance targets and cut operational costs.",
+      "tags": ["Energy 2.0", "ESG", "Real-Time Monitoring", "Renewables"]
+    }
+  ],
+  "why_section": {
+    "label_num": "02",
+    "label": "Why Nord Axis",
+    "title": "ONE PLATFORM. TOTAL COVERAGE."
+  },
+  "why_items": [
+    {
+      "icon": "link",
+      "title": "Integrated Approach",
+      "description": "Software and hardware in one house. We design, build, and maintain the full stack — no integration gaps."
+    },
+    {
+      "icon": "globe",
+      "title": "Sustainability by Design",
+      "description": "Energy 2.0 principles baked into every solution. ESG compliance is not an add-on — it's the foundation."
+    },
+    {
+      "icon": "zap",
+      "title": "Future-Proof Architecture",
+      "description": "Built for Industry 5.0 today. Modular, scalable systems that grow as your operation evolves."
+    }
+  ],
+  "training_teaser": {
+    "label_num": "03",
+    "label": "Training Programs",
+    "title": "KNOWLEDGE IS YOUR COMPETITIVE EDGE",
+    "b2b_tag": "B2B Corporate",
+    "b2b_title": "Enterprise Upskilling",
+    "b2b_desc": "Bespoke AI, automation, and predictive maintenance training programs designed for industrial teams.",
+    "b2b_cta": "View B2B Programs",
+    "b2c_tag": "B2C Individual",
+    "b2c_title": "Career Acceleration",
+    "b2c_desc": "Self-paced and instructor-led programs to launch or accelerate your career in Industry 4.0.",
+    "b2c_cta": "View B2C Programs"
+  },
+  "cta_banner": {
+    "quote": "Navigating the Nexus of Industry and Intelligence.",
+    "sub": "Your partner in sustainable industrial transformation",
+    "cta1": "Start a Project",
+    "cta2": "View Services"
+  }
+}

@@ -1,0 +1,72 @@
+/* src/app/globals.css */
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-background: #080B0F;
+  --color-surface: #0D1117;
+  --color-card: #111820;
+  --color-cyan: #00C8B4;
+  --color-amber: #F59E0B;
+  --color-white: #E8EDF2;
+  --color-muted: #6B7A8D;
+  --color-border: rgba(0, 200, 180, 0.15);
+
+  /* Font families */
+  --font-display: var(--font-bebas), sans-serif;
+  --font-body: var(--font-dm-sans), sans-serif;
+  --font-mono: var(--font-space-mono), monospace;
+
+  /* Animations */
+  --animate-ticker: ticker 30s linear infinite;
+  --animate-scan-line: scan-line 4s linear infinite;
+
+  /* Keyframes */
+  @keyframes ticker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  @keyframes scan-line {
+    0% { top: 0%; opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { top: 100%; opacity: 0; }
+  }
+}
+
+/* HUD grid overlay on body */
+body {
+  background-color: #080B0F;
+  background-image:
+    linear-gradient(rgba(0, 200, 180, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 200, 180, 0.035) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-attachment: fixed;
+}
+
+/* Noise texture overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.02;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #080B0F; }
+::-webkit-scrollbar-thumb { background: rgba(0, 200, 180, 0.3); border-radius: 2px; }
+
+/* Ticker pause on hover */
+.ticker-container:hover .ticker-inner {
+  animation-play-state: paused;
+}
+
+/* RTL section label line direction */
+[dir="rtl"] .section-label-line {
+  background: linear-gradient(to left, rgba(0,200,180,0.3), transparent) !important;
+}

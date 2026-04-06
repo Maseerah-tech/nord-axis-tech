@@ -1,0 +1,34 @@
+{
+  "page_hero": {
+    "label_num": "00",
+    "label": "أكاديمية نورد أكسيس",
+    "title": "المعرفة هي ميزتك التنافسية",
+    "subtitle": "برامج B2B للمؤسسات ومسارات B2C للأفراد لعصر الصناعة 4.0 و5.0."
+  },
+  "b2b": {
+    "label_num": "01",
+    "label": "B2B للمؤسسات",
+    "title": "برامج تدريب المؤسسات",
+    "subtitle": "تدريب مخصص يُقدَّم في الموقع أو عن بُعد للفرق الصناعية.",
+    "programs": [
+      { "title": "الذكاء الاصطناعي وتعلم الآلة للصناعة", "duration": "5 أيام", "level": "Intermediate" },
+      { "title": "شهادة الصيانة التنبؤية", "duration": "3 أيام", "level": "Advanced" },
+      { "title": "الأتمتة وتشغيل الروبوتات التعاونية", "duration": "4 أيام", "level": "Intermediate" },
+      { "title": "إدارة الطاقة 4.0", "duration": "يومان", "level": "Beginner" }
+    ],
+    "enroll_cta": "طلب البرنامج"
+  },
+  "b2c": {
+    "label_num": "02",
+    "label": "B2C للأفراد",
+    "title": "مسارات التعلم الفردية",
+    "subtitle": "برامج ذاتية ومع مدرب لإطلاق مسيرتك المهنية أو تسريعها.",
+    "programs": [
+      { "title": "أساسيات الصناعة 4.0", "duration": "8 أسابيع", "level": "Beginner" },
+      { "title": "علوم البيانات الصناعية", "duration": "12 أسبوعاً", "level": "Intermediate" },
+      { "title": "أنظمة إنترنت الأشياء والمستشعرات", "duration": "6 أسابيع", "level": "Intermediate" },
+      { "title": "ممارسات الهندسة المستدامة", "duration": "4 أسابيع", "level": "Beginner" }
+    ],
+    "enroll_cta": "سجّل الآن"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "mission": {
+    "label_num": "01",
+    "label": "Notre Mission",
+    "title": "UNE INTELLIGENCE AU SERVICE DE L'INDUSTRIE",
+    "text": "Nord Axis Tech a été fondée sur une conviction : le secteur industriel mérite une technologie construite spécifiquement pour sa complexité, ses contraintes et ses hommes. Nous existons pour combler le fossé entre la recherche avancée en IA et le plancher de l'usine."
+  },
+  "values": {
+    "label_num": "02",
+    "label": "Nos Valeurs",
+    "title": "TROIS PILIERS. UNE DIRECTION.",
+    "items": [
+      { "icon": "lightbulb", "title": "Innovation", "description": "Nous repoussons les limites du possible dans les environnements industriels — appliquant l'IA, la robotique et les jumeaux numériques à de vrais défis de production." },
+      { "icon": "cpu", "title": "Intelligence", "description": "Chaque solution que nous construisons est pilotée par les données. Nous modélisons, mesurons et optimisons sur la base des signaux réels de vos actifs." },
+      { "icon": "leaf", "title": "Durabilité", "description": "Les principes Énergie 2.0 et ESG sont intégrés dans tout ce que nous concevons. La transformation industrielle durable est un avantage concurrentiel." }
+    ]
+  },
+  "team": {
+    "label_num": "03",
+    "label": "L'Équipe",
+    "title": "CONSTRUIT PAR DES INGÉNIEURS. GÉRÉ PAR DES INGÉNIEURS.",
+    "members": [
+      { "role": "Directeur Général", "department": "Direction" },
+      { "role": "Directeur Technique", "department": "Technologie" },
+      { "role": "Ingénieur IA Principal", "department": "Science des Données" },
+      { "role": "Responsable Robotique", "department": "Ingénierie" },
+      { "role": "Architecte Systèmes Énergétiques", "department": "Énergie Durable" },
+      { "role": "Responsable IoT Industriel", "department": "Connectivité" }
+    ]
+  },
+  "timeline": {
+    "label_num": "04",
+    "label": "Notre Parcours",
+    "title": "DE L'IDÉE AU PARTENAIRE INDUSTRIEL",
+    "milestones": [
+      { "year": "2021", "title": "Fondation", "desc": "Nord Axis Tech créée avec un focus sur l'IA pour la maintenance prédictive industrielle." },
+      { "year": "2022", "title": "Premiers Déploiements", "desc": "Déploiement de notre première plateforme de maintenance prédictive dans 3 usines." },
+      { "year": "2023", "title": "Division Robotique", "desc": "Expansion dans la robotique industrielle et l'ingénierie des jumeaux numériques." },
+      { "year": "2024", "title": "Pratique Énergie 2.0", "desc": "Lancement de notre activité de conseil en énergie durable et ESG." },
+      { "year": "2025", "title": "Académie de Formation", "desc": "Ouverture de Nord Axis Academy avec des programmes B2B et B2C." },
+      { "year": "2026", "title": "Plateforme Industrie 5.0", "desc": "Plateforme unifiée connectant IA, cobots et gestion de l'énergie." }
+    ]
+  }
+}

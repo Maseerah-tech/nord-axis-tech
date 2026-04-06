@@ -1,0 +1,55 @@
+{
+  "page_hero": {
+    "label_num": "00",
+    "label": "What We Do",
+    "title": "OUR SERVICES",
+    "subtitle": "Four integrated pillars covering the full spectrum of industrial intelligence."
+  },
+  "pillars": [
+    {
+      "number": "01",
+      "title": "Industrial Intelligence",
+      "description_1": "We build and deploy AI models specifically trained on industrial data — vibration signals, thermal readings, production logs, and supply chain feeds. Our pipelines are built for reliability in edge and cloud environments.",
+      "description_2": "From anomaly detection and demand forecasting to quality inspection vision models, our data science team covers the full ML lifecycle: data acquisition, feature engineering, training, deployment, and monitoring.",
+      "description_3": "Our systems integrate natively with existing SCADA, MES, and ERP platforms, providing intelligence that acts within your existing workflows rather than replacing them.",
+      "capabilities": ["AI Model Development", "Data Pipeline Engineering", "Predictive Analytics", "Anomaly Detection", "Computer Vision QC", "MLOps & Monitoring", "SCADA/MES Integration"],
+      "use_cases": ["Predicting equipment failure 72h in advance", "Real-time quality defect detection on production lines", "Demand forecasting for spare parts inventory"],
+      "cta": "Get a Quote"
+    },
+    {
+      "number": "02",
+      "title": "Maintenance 4.0→5.0",
+      "description_1": "We transform reactive maintenance into predictive and prescriptive strategies using IoT sensor networks, condition monitoring algorithms, and cobot-assisted inspection workflows.",
+      "description_2": "Our maintenance platforms integrate with CMMS systems and provide dashboards that give maintenance managers full visibility into asset health across the plant floor — accessible from any device.",
+      "description_3": "The Industry 5.0 layer introduces collaborative robots (cobots) into the maintenance workflow, enabling human-robot teams to execute inspections and light repairs with higher precision and safety.",
+      "capabilities": ["IoT Sensor Integration", "Condition Monitoring", "Cobot Deployment", "CMMS Integration", "Asset Health Dashboards", "Maintenance Scheduling AI", "Vibration & Thermal Analysis"],
+      "use_cases": ["Reducing unplanned downtime by 40%", "Cobot-assisted bearing replacements", "Plant-wide asset health visibility in real time"],
+      "cta": "Get a Quote"
+    },
+    {
+      "number": "03",
+      "title": "Engineering & Automation",
+      "description_1": "We design and implement full-scale automation solutions — from single-station robotics to end-to-end smart production lines. Our engineering team covers mechanical, electrical, and software integration.",
+      "description_2": "Digital twin technology sits at the core of our engineering offer. We build high-fidelity virtual replicas of your production assets that enable simulation, optimisation, and operator training before any physical change is made.",
+      "description_3": "Every automation project is engineered for operator co-existence. We apply Industry 5.0 human-centric principles to ensure that automation augments your workforce rather than displacing it.",
+      "capabilities": ["Industrial Robotics", "Digital Twin Modelling", "Smart Line Design", "PLC/SCADA Programming", "HMI Development", "Safety System Design", "Commissioning & Training"],
+      "use_cases": ["Full smart line retrofit for automotive component plant", "Digital twin simulation reducing changeover time by 30%", "Human-robot collaborative assembly cell"],
+      "cta": "Get a Quote"
+    },
+    {
+      "number": "04",
+      "title": "Sustainable Energy",
+      "description_1": "Our Energy 2.0 offer covers the complete energy transition journey — from baseline audit and carbon footprint assessment through renewable integration design, execution, and ongoing ESG reporting.",
+      "description_2": "We deploy real-time energy monitoring platforms that give operations teams live visibility into consumption patterns across machines, lines, and facilities — enabling immediate corrective action and long-term optimisation.",
+      "description_3": "ESG compliance documentation, reporting dashboards, and third-party audit preparation are included in our managed energy service — giving your sustainability team the data they need to meet regulatory requirements.",
+      "capabilities": ["Energy Audit & Assessment", "Renewable Energy Integration", "ESG Reporting", "Real-Time Energy Monitoring", "Carbon Footprint Analysis", "ISO 50001 Preparation", "Demand Response Systems"],
+      "use_cases": ["Reducing plant energy costs by 25% through peak shaving", "Full ESG dashboard for annual sustainability report", "Solar + storage integration for 24/7 production"],
+      "cta": "Get a Quote"
+    }
+  ],
+  "cta_banner": {
+    "title": "READY TO TRANSFORM YOUR OPERATION?",
+    "sub": "Tell us about your challenge and we'll build the solution.",
+    "cta": "Start a Conversation"
+  }
+}

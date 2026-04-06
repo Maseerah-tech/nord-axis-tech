@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "À Propos",
+    "training": "Formation",
+    "contact": "Contact",
+    "cta": "Démarrer"
+  },
+  "footer": {
+    "tagline": "L'Intelligence Industrielle Réinventée",
+    "rights": "Tous droits réservés.",
+    "made": "Conçu pour l'Industrie 5.0"
+  }
+}

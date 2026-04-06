@@ -1,0 +1,34 @@
+{
+  "page_hero": {
+    "label_num": "00",
+    "label": "Nord Axis Academy",
+    "title": "LA CONNAISSANCE EST VOTRE AVANTAGE CONCURRENTIEL",
+    "subtitle": "Programmes B2B entreprise et parcours B2C individuels pour l'ère Industrie 4.0 et 5.0."
+  },
+  "b2b": {
+    "label_num": "01",
+    "label": "B2B Entreprise",
+    "title": "PROGRAMMES DE FORMATION ENTREPRISE",
+    "subtitle": "Formations sur mesure dispensées sur site ou à distance pour les équipes industrielles.",
+    "programs": [
+      { "title": "IA & Machine Learning pour l'Industrie", "duration": "5 Jours", "level": "Intermediate" },
+      { "title": "Certification Maintenance Prédictive", "duration": "3 Jours", "level": "Advanced" },
+      { "title": "Automatisation & Opérations Cobots", "duration": "4 Jours", "level": "Intermediate" },
+      { "title": "Gestion de l'Énergie 4.0", "duration": "2 Jours", "level": "Beginner" }
+    ],
+    "enroll_cta": "Demander le Programme"
+  },
+  "b2c": {
+    "label_num": "02",
+    "label": "B2C Individuel",
+    "title": "PARCOURS D'APPRENTISSAGE INDIVIDUELS",
+    "subtitle": "Programmes en ligne et en présentiel pour lancer ou accélérer votre carrière.",
+    "programs": [
+      { "title": "Fondamentaux de l'Industrie 4.0", "duration": "8 Semaines", "level": "Beginner" },
+      { "title": "Science des Données Industrielles", "duration": "12 Semaines", "level": "Intermediate" },
+      { "title": "IoT & Systèmes de Capteurs", "duration": "6 Semaines", "level": "Intermediate" },
+      { "title": "Pratiques d'Ingénierie Durable", "duration": "4 Semaines", "level": "Beginner" }
+    ],
+    "enroll_cta": "S'Inscrire"
+  }
+}

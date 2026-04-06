@@ -1,0 +1,38 @@
+{
+  "page_hero": {
+    "label_num": "00",
+    "label": "Contactez-Nous",
+    "title": "DÉMARRER UNE CONVERSATION",
+    "subtitle": "Parlez-nous de votre défi industriel. Nous répondons sous 24 heures."
+  },
+  "form": {
+    "name": "Nom Complet",
+    "company": "Entreprise",
+    "email": "Adresse Email",
+    "phone": "Numéro de Téléphone",
+    "service": "Service d'Intérêt",
+    "service_options": [
+      "Intelligence Industrielle / IA",
+      "Maintenance 4.0→5.0",
+      "Ingénierie & Automatisation",
+      "Énergie Durable",
+      "Programmes de Formation",
+      "Autre"
+    ],
+    "message": "Parlez-nous de votre projet",
+    "submit": "Envoyer le Message",
+    "submitting": "Envoi en cours...",
+    "success": "Message envoyé. Nous vous répondrons sous 24 heures.",
+    "error": "Une erreur s'est produite. Veuillez nous contacter directement par email."
+  },
+  "sidebar": {
+    "email_label": "Email",
+    "email": "contact@nord-axis-tech.com",
+    "linkedin_label": "LinkedIn",
+    "linkedin": "linkedin.com/company/nord-axis-tech",
+    "location_label": "Localisation",
+    "location": "Afrique du Nord & Région MENA",
+    "response_label": "Délai de Réponse",
+    "response": "Sous 24 heures"
+  }
+}

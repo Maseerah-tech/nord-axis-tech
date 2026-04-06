@@ -1,0 +1,55 @@
+{
+  "page_hero": {
+    "label_num": "00",
+    "label": "Ce Que Nous Faisons",
+    "title": "NOS SERVICES",
+    "subtitle": "Quatre piliers intégrés couvrant tout le spectre de l'intelligence industrielle."
+  },
+  "pillars": [
+    {
+      "number": "01",
+      "title": "Intelligence Industrielle",
+      "description_1": "Nous construisons et déployons des modèles d'IA spécifiquement entraînés sur des données industrielles — signaux de vibration, relevés thermiques, journaux de production et flux de chaîne d'approvisionnement.",
+      "description_2": "De la détection d'anomalies à la prévision de la demande en passant par les modèles de vision pour l'inspection qualité, notre équipe couvre l'ensemble du cycle de vie ML.",
+      "description_3": "Nos systèmes s'intègrent nativement avec les plateformes SCADA, MES et ERP existantes, apportant de l'intelligence dans vos flux de travail existants.",
+      "capabilities": ["Développement de Modèles IA", "Ingénierie de Pipelines", "Analytique Prédictive", "Détection d'Anomalies", "Vision par Ordinateur", "MLOps", "Intégration SCADA/MES"],
+      "use_cases": ["Prédire les pannes d'équipement 72h à l'avance", "Détection de défauts qualité en temps réel", "Prévision de la demande en pièces de rechange"],
+      "cta": "Obtenir un Devis"
+    },
+    {
+      "number": "02",
+      "title": "Maintenance 4.0→5.0",
+      "description_1": "Nous transformons la maintenance réactive en stratégies prédictives et prescriptives grâce aux réseaux de capteurs IoT, aux algorithmes de surveillance d'état et aux flux d'inspection assistés par cobots.",
+      "description_2": "Nos plateformes de maintenance s'intègrent avec les systèmes GMAO et fournissent des tableaux de bord offrant une visibilité complète sur la santé des actifs dans toute l'usine.",
+      "description_3": "La couche Industrie 5.0 introduit des cobots dans le flux de maintenance, permettant aux équipes humain-robot d'effectuer des inspections avec une précision et une sécurité accrues.",
+      "capabilities": ["Intégration Capteurs IoT", "Surveillance d'État", "Déploiement Cobots", "Intégration GMAO", "Tableaux de Bord Santé Actifs", "IA Planification Maintenance", "Analyse Vibration & Thermique"],
+      "use_cases": ["Réduction des arrêts imprévus de 40%", "Remplacement de roulements assisté par cobot", "Visibilité en temps réel sur la santé des actifs"],
+      "cta": "Obtenir un Devis"
+    },
+    {
+      "number": "03",
+      "title": "Ingénierie & Automatisation",
+      "description_1": "Nous concevons et mettons en œuvre des solutions d'automatisation complètes — de la robotique mono-poste aux lignes de production intelligentes de bout en bout.",
+      "description_2": "La technologie des jumeaux numériques est au cœur de notre offre d'ingénierie. Nous construisons des répliques virtuelles haute-fidélité de vos actifs de production.",
+      "description_3": "Chaque projet d'automatisation est conçu pour la coexistence opérateur. Nous appliquons les principes centrés sur l'humain de l'Industrie 5.0.",
+      "capabilities": ["Robotique Industrielle", "Modélisation Jumeaux Numériques", "Conception Lignes Intelligentes", "Programmation API/SCADA", "Développement IHM", "Conception Systèmes de Sécurité", "Mise en Service"],
+      "use_cases": ["Rénovation complète d'une ligne intelligente pour l'automobile", "Simulation jumeau numérique réduisant le temps de changement de 30%", "Cellule d'assemblage collaboratif humain-robot"],
+      "cta": "Obtenir un Devis"
+    },
+    {
+      "number": "04",
+      "title": "Énergie Durable",
+      "description_1": "Notre offre Énergie 2.0 couvre l'ensemble du parcours de transition énergétique — de l'audit de référence et de l'évaluation de l'empreinte carbone à l'intégration des énergies renouvelables.",
+      "description_2": "Nous déployons des plateformes de surveillance énergétique en temps réel offrant une visibilité en direct sur les schémas de consommation à travers machines, lignes et installations.",
+      "description_3": "La documentation de conformité ESG, les tableaux de bord de reporting et la préparation aux audits tiers sont inclus dans notre service énergétique géré.",
+      "capabilities": ["Audit & Évaluation Énergétique", "Intégration Énergies Renouvelables", "Reporting ESG", "Surveillance Énergétique Temps Réel", "Analyse Empreinte Carbone", "Préparation ISO 50001", "Systèmes de Réponse à la Demande"],
+      "use_cases": ["Réduction des coûts énergétiques de 25% par écrêtement des pointes", "Tableau de bord ESG complet pour rapport annuel", "Intégration solaire + stockage pour production 24/7"],
+      "cta": "Obtenir un Devis"
+    }
+  ],
+  "cta_banner": {
+    "title": "PRÊT À TRANSFORMER VOTRE OPÉRATION ?",
+    "sub": "Parlez-nous de votre défi et nous construirons la solution.",
+    "cta": "Démarrer une Conversation"
+  }
+}

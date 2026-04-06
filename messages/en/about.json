@@ -1,0 +1,56 @@
+{
+  "mission": {
+    "label_num": "01",
+    "label": "Our Mission",
+    "title": "INTELLIGENCE THAT SERVES INDUSTRY",
+    "text": "Nord Axis Tech was founded on a single conviction: that the industrial sector deserves technology built specifically for its complexity, its constraints, and its people. We exist to close the gap between advanced AI research and the factory floor — delivering solutions that work in real conditions, not just demo environments."
+  },
+  "values": {
+    "label_num": "02",
+    "label": "What We Stand For",
+    "title": "THREE PILLARS. ONE DIRECTION.",
+    "items": [
+      {
+        "icon": "lightbulb",
+        "title": "Innovation",
+        "description": "We push the boundaries of what's technically possible in industrial environments — applying cutting-edge AI, robotics, and digital twin research to real production challenges."
+      },
+      {
+        "icon": "cpu",
+        "title": "Intelligence",
+        "description": "Every solution we build is data-driven. We don't guess — we model, measure, and optimise based on the actual signals your assets produce every second."
+      },
+      {
+        "icon": "leaf",
+        "title": "Sustainability",
+        "description": "Energy 2.0 and ESG principles are embedded in everything we design. Sustainable industrial transformation is not a constraint — it's a competitive advantage."
+      }
+    ]
+  },
+  "team": {
+    "label_num": "03",
+    "label": "The Team",
+    "title": "BUILT BY ENGINEERS. RUN BY ENGINEERS.",
+    "members": [
+      { "role": "Chief Executive Officer", "department": "Leadership" },
+      { "role": "Chief Technology Officer", "department": "Technology" },
+      { "role": "Lead AI Engineer", "department": "Data Science" },
+      { "role": "Head of Robotics", "department": "Engineering" },
+      { "role": "Energy Systems Architect", "department": "Sustainable Energy" },
+      { "role": "Industrial IoT Lead", "department": "Connectivity" }
+    ]
+  },
+  "timeline": {
+    "label_num": "04",
+    "label": "Our Journey",
+    "title": "FROM IDEA TO INDUSTRY PARTNER",
+    "milestones": [
+      { "year": "2021", "title": "Company Founded", "desc": "Nord Axis Tech incorporated with a focus on AI for industrial predictive maintenance." },
+      { "year": "2022", "title": "First Deployments", "desc": "Deployed our first predictive maintenance platform across 3 manufacturing plants." },
+      { "year": "2023", "title": "Robotics Division Launch", "desc": "Expanded into industrial robotics and digital twin engineering." },
+      { "year": "2024", "title": "Energy 2.0 Practice", "desc": "Launched our sustainable energy and ESG advisory practice." },
+      { "year": "2025", "title": "Training Academy", "desc": "Opened Nord Axis Academy with B2B and B2C training programs." },
+      { "year": "2026", "title": "Industry 5.0 Platform", "desc": "Unified platform connecting AI, cobots, and energy management for full Industry 5.0 readiness." }
+    ]
+  }
+}

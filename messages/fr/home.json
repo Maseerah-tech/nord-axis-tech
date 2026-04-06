@@ -1,0 +1,91 @@
+{
+  "hero": {
+    "system_tag": "SYS.EN LIGNE // SOLUTIONS INDUSTRIE 4.0 → 5.0",
+    "h1_line1": "INDUSTRIEL",
+    "h1_line2": "INTELLIGENCE",
+    "h1_line3": "RÉINVENTÉE",
+    "subtext": "Nord Axis Tech relie l'industrie traditionnelle à la frontière numérique de demain — en combinant l'IA, la robotique, l'énergie durable et l'ingénierie centrée sur l'humain en une seule plateforme intégrée.",
+    "cta_primary": "Explorer les Services",
+    "cta_secondary": "Nous Contacter"
+  },
+  "stats": {
+    "stat1_value": "4.0→5.0",
+    "stat1_label": "Évolution Industrielle",
+    "stat2_value": "360°",
+    "stat2_label": "Couverture Digitale",
+    "stat3_value": "0 CO₂",
+    "stat3_label": "Objectif Énergie 2.0"
+  },
+  "services_section": {
+    "label_num": "01",
+    "label": "Nos Services",
+    "title": "SOLUTIONS INDUSTRIELLES DE BOUT EN BOUT"
+  },
+  "services": [
+    {
+      "number": "01",
+      "title": "Intelligence Industrielle",
+      "description": "Modèles d'IA et pipelines de science des données adaptés aux environnements industriels — de l'analyse prédictive aux moteurs de décision en temps réel.",
+      "tags": ["Modèles IA", "Science des Données", "Analytique Prédictive", "Machine Learning"]
+    },
+    {
+      "number": "02",
+      "title": "Maintenance 4.0→5.0",
+      "description": "Surveillance d'état connectée par IoT et flux de travail de maintenance assistés par cobots pour éliminer les arrêts imprévus.",
+      "tags": ["Capteurs IoT", "Cobots", "Surveillance d'État", "Intégration GMAO"]
+    },
+    {
+      "number": "03",
+      "title": "Ingénierie & Automatisation",
+      "description": "Intégration robotique complète, modélisation de jumeaux numériques et conception de lignes de production intelligentes pour l'usine du futur.",
+      "tags": ["Robotique", "Jumeaux Numériques", "Lignes Intelligentes", "Intégration API"]
+    },
+    {
+      "number": "04",
+      "title": "Énergie Durable",
+      "description": "Audit Énergie 2.0, intégration des énergies renouvelables et suivi ESG en temps réel pour atteindre les objectifs de conformité.",
+      "tags": ["Énergie 2.0", "ESG", "Suivi Temps Réel", "Énergies Renouvelables"]
+    }
+  ],
+  "why_section": {
+    "label_num": "02",
+    "label": "Pourquoi Nord Axis",
+    "title": "UNE PLATEFORME. UNE COUVERTURE TOTALE."
+  },
+  "why_items": [
+    {
+      "icon": "link",
+      "title": "Approche Intégrée",
+      "description": "Logiciel et matériel sous le même toit. Nous concevons, construisons et maintenons la pile complète — sans lacunes d'intégration."
+    },
+    {
+      "icon": "globe",
+      "title": "Durabilité par Conception",
+      "description": "Les principes Énergie 2.0 sont intégrés dans chaque solution. La conformité ESG n'est pas un add-on — c'est le fondement."
+    },
+    {
+      "icon": "zap",
+      "title": "Architecture Évolutive",
+      "description": "Conçu pour l'Industrie 5.0 aujourd'hui. Des systèmes modulaires et évolutifs qui grandissent avec votre activité."
+    }
+  ],
+  "training_teaser": {
+    "label_num": "03",
+    "label": "Programmes de Formation",
+    "title": "LA CONNAISSANCE EST VOTRE AVANTAGE CONCURRENTIEL",
+    "b2b_tag": "B2B Entreprise",
+    "b2b_title": "Montée en Compétences",
+    "b2b_desc": "Programmes de formation sur mesure en IA, automatisation et maintenance prédictive pour les équipes industrielles.",
+    "b2b_cta": "Voir les Programmes B2B",
+    "b2c_tag": "B2C Individuel",
+    "b2c_title": "Accélération de Carrière",
+    "b2c_desc": "Programmes en ligne et en présentiel pour lancer ou accélérer votre carrière dans l'Industrie 4.0.",
+    "b2c_cta": "Voir les Programmes B2C"
+  },
+  "cta_banner": {
+    "quote": "Naviguer au Carrefour de l'Industrie et de l'Intelligence.",
+    "sub": "Votre partenaire dans la transformation industrielle durable",
+    "cta1": "Démarrer un Projet",
+    "cta2": "Voir les Services"
+  }
+}

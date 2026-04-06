@@ -1,0 +1,38 @@
+{
+  "page_hero": {
+    "label_num": "00",
+    "label": "Get In Touch",
+    "title": "START A CONVERSATION",
+    "subtitle": "Tell us about your industrial challenge. We'll respond within 24 hours."
+  },
+  "form": {
+    "name": "Full Name",
+    "company": "Company",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "service": "Service of Interest",
+    "service_options": [
+      "Industrial Intelligence / AI",
+      "Maintenance 4.0→5.0",
+      "Engineering & Automation",
+      "Sustainable Energy",
+      "Training Programs",
+      "Other"
+    ],
+    "message": "Tell us about your project",
+    "submit": "Send Message",
+    "submitting": "Sending...",
+    "success": "Message sent. We'll be in touch within 24 hours.",
+    "error": "Something went wrong. Please email us directly."
+  },
+  "sidebar": {
+    "email_label": "Email",
+    "email": "contact@nord-axis-tech.com",
+    "linkedin_label": "LinkedIn",
+    "linkedin": "linkedin.com/company/nord-axis-tech",
+    "location_label": "Location",
+    "location": "North Africa & MENA Region",
+    "response_label": "Response Time",
+    "response": "Within 24 hours"
+  }
+}

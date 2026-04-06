@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "training": "Training",
+    "contact": "Contact",
+    "cta": "Start Project"
+  },
+  "footer": {
+    "tagline": "Industrial Intelligence Redefined",
+    "rights": "All rights reserved.",
+    "made": "Built for Industry 5.0"
+  }
+}

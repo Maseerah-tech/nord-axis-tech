@@ -1,0 +1,34 @@
+{
+  "page_hero": {
+    "label_num": "00",
+    "label": "Nord Axis Academy",
+    "title": "KNOWLEDGE IS YOUR COMPETITIVE EDGE",
+    "subtitle": "B2B corporate programs and B2C individual tracks designed for the Industry 4.0 and 5.0 era."
+  },
+  "b2b": {
+    "label_num": "01",
+    "label": "B2B Corporate",
+    "title": "ENTERPRISE TRAINING PROGRAMS",
+    "subtitle": "Bespoke upskilling delivered on-site or remotely for industrial teams.",
+    "programs": [
+      { "title": "AI & Machine Learning for Industry", "duration": "5 Days", "level": "Intermediate" },
+      { "title": "Predictive Maintenance Certification", "duration": "3 Days", "level": "Advanced" },
+      { "title": "Automation & Cobot Operations", "duration": "4 Days", "level": "Intermediate" },
+      { "title": "Energy Management 4.0", "duration": "2 Days", "level": "Beginner" }
+    ],
+    "enroll_cta": "Request Program"
+  },
+  "b2c": {
+    "label_num": "02",
+    "label": "B2C Individual",
+    "title": "INDIVIDUAL LEARNING TRACKS",
+    "subtitle": "Self-paced and instructor-led programs to launch or accelerate your career.",
+    "programs": [
+      { "title": "Industry 4.0 Fundamentals", "duration": "8 Weeks", "level": "Beginner" },
+      { "title": "Industrial Data Science", "duration": "12 Weeks", "level": "Intermediate" },
+      { "title": "IoT & Sensor Systems", "duration": "6 Weeks", "level": "Intermediate" },
+      { "title": "Sustainable Engineering Practices", "duration": "4 Weeks", "level": "Beginner" }
+    ],
+    "enroll_cta": "Enroll Now"
+  }
+}
