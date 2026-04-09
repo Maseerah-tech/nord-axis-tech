@@ -23,23 +23,23 @@ export default async function TrainingPage() {
   return (
     <div>
       {/* Page Hero */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12">
+      <section className="max-w-7xl mx-auto px-6 lg:px-8 pt-16 pb-12">
         <FadeUp>
           <SectionLabel number={t('page_hero.label_num')} label={t('page_hero.label')} />
-          <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl text-white tracking-widest mb-4">
+          <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl text-ink tracking-wide mb-4">
             {t('page_hero.title')}
           </h1>
-          <p className="font-body text-muted max-w-2xl leading-relaxed">{t('page_hero.subtitle')}</p>
+          <p className="font-body text-base text-ink-secondary max-w-2xl leading-relaxed">{t('page_hero.subtitle')}</p>
         </FadeUp>
       </section>
 
       {/* B2B */}
       <section className="border-t border-border py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <FadeUp>
             <SectionLabel number={t('b2b.label_num')} label={t('b2b.label')} />
-            <h2 className="font-display text-4xl sm:text-5xl text-white tracking-widest mb-3">{t('b2b.title')}</h2>
-            <p className="font-body text-muted mb-10">{t('b2b.subtitle')}</p>
+            <h2 className="font-display text-4xl sm:text-5xl text-ink tracking-wide mb-3">{t('b2b.title')}</h2>
+            <p className="font-body text-sm text-ink-secondary mb-10 max-w-xl">{t('b2b.subtitle')}</p>
           </FadeUp>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {b2bPrograms.map((prog, i) => (
@@ -59,12 +59,12 @@ export default async function TrainingPage() {
       </section>
 
       {/* B2C */}
-      <section className="bg-surface/40 border-y border-border py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="bg-white border-y border-border py-20">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <FadeUp>
             <SectionLabel number={t('b2c.label_num')} label={t('b2c.label')} />
-            <h2 className="font-display text-4xl sm:text-5xl text-white tracking-widest mb-3">{t('b2c.title')}</h2>
-            <p className="font-body text-muted mb-10">{t('b2c.subtitle')}</p>
+            <h2 className="font-display text-4xl sm:text-5xl text-ink tracking-wide mb-3">{t('b2c.title')}</h2>
+            <p className="font-body text-sm text-ink-secondary mb-10 max-w-xl">{t('b2c.subtitle')}</p>
           </FadeUp>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {b2cPrograms.map((prog, i) => (

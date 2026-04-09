@@ -6,18 +6,20 @@
   --color-background: #F5F6F8;
   --color-surface: #FFFFFF;
   --color-card: #FFFFFF;
+
+  /* Text */
   --color-ink: #0F1923;
   --color-ink-secondary: #3D4F61;
-  --color-muted: #7A8FA6;
-  --color-cyan: #00A896;
-  --color-cyan-light: #E6F7F5;
-  --color-amber: #E08A00;
-  --color-border: rgba(15, 25, 35, 0.1);
-  --color-border-strong: rgba(15, 25, 35, 0.18);
+  --color-muted: #566879;
 
-  /* Aliases used throughout components */
-  --color-white: #0F1923;
-  --color-surface-alt: #EEF0F3;
+  /* Accents */
+  --color-cyan: #00A896;
+  --color-cyan-light: #E4F5F3;
+  --color-amber: #D97706;
+
+  /* Borders */
+  --color-border: rgba(15, 25, 35, 0.09);
+  --color-border-strong: rgba(15, 25, 35, 0.18);
 
   /* ── Font families ── */
   --font-display: var(--font-bebas), sans-serif;

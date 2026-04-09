@@ -34,13 +34,13 @@ export default async function ServicesPage() {
   return (
     <div>
       {/* Page Hero */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12">
+      <section className="max-w-7xl mx-auto px-6 lg:px-8 pt-16 pb-12">
         <FadeUp>
           <SectionLabel number={t('page_hero.label_num')} label={t('page_hero.label')} />
-          <h1 className="font-display text-6xl sm:text-7xl text-white tracking-widest mb-4">
+          <h1 className="font-display text-6xl sm:text-7xl text-ink tracking-wide mb-4">
             {t('page_hero.title')}
           </h1>
-          <p className="font-body text-muted max-w-2xl leading-relaxed">{t('page_hero.subtitle')}</p>
+          <p className="font-body text-base text-ink-secondary max-w-2xl leading-relaxed">{t('page_hero.subtitle')}</p>
         </FadeUp>
       </section>
 
@@ -48,43 +48,45 @@ export default async function ServicesPage() {
       {pillars.map((pillar, i) => {
         const Icon = PILLAR_ICONS[i]
         return (
-          <section key={pillar.number} className={`border-t border-border py-20 ${i % 2 === 1 ? 'bg-surface/40' : ''}`}>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <section key={pillar.number} className={`border-t border-border py-20 ${i % 2 === 1 ? 'bg-white' : ''}`}>
+            <div className="max-w-7xl mx-auto px-6 lg:px-8">
               <div className="grid lg:grid-cols-2 gap-16 items-start">
                 <FadeUp>
-                  <span className="font-mono text-xs text-muted tracking-widest">{pillar.number}</span>
-                  <div className="flex items-center gap-4 my-4">
-                    <div className="w-12 h-12 border border-cyan/30 flex items-center justify-center">
-                      <Icon className="w-6 h-6 text-cyan" strokeWidth={1.5} />
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="w-11 h-11 bg-cyan-light flex items-center justify-center rounded-sm shrink-0">
+                      <Icon className="w-5 h-5 text-cyan" strokeWidth={1.5} />
                     </div>
-                    <h2 className="font-display text-3xl sm:text-4xl text-white tracking-widest">
-                      {pillar.title}
-                    </h2>
+                    <div>
+                      <span className="font-body text-xs font-semibold text-muted tracking-[0.15em] uppercase">{pillar.number}</span>
+                      <h2 className="font-display text-3xl sm:text-4xl text-ink tracking-wide leading-none">
+                        {pillar.title}
+                      </h2>
+                    </div>
                   </div>
                   <div className="space-y-4 mb-8">
-                    <p className="font-body text-muted leading-relaxed">{pillar.description_1}</p>
-                    <p className="font-body text-muted leading-relaxed">{pillar.description_2}</p>
-                    <p className="font-body text-muted leading-relaxed">{pillar.description_3}</p>
+                    <p className="font-body text-sm text-ink-secondary leading-relaxed">{pillar.description_1}</p>
+                    <p className="font-body text-sm text-ink-secondary leading-relaxed">{pillar.description_2}</p>
+                    <p className="font-body text-sm text-ink-secondary leading-relaxed">{pillar.description_3}</p>
                   </div>
                   <Button href={`/${locale}/contact`} variant="primary">{pillar.cta}</Button>
                 </FadeUp>
 
                 <FadeUp delay={0.15}>
-                  <div className="bg-card border border-border p-6 mb-4">
-                    <p className="font-mono text-xs text-cyan tracking-widest uppercase mb-4">Key Capabilities</p>
+                  <div className="bg-background border border-border p-6 mb-4 rounded-sm">
+                    <p className="font-body text-xs font-semibold text-ink-secondary tracking-[0.15em] uppercase mb-4">Key Capabilities</p>
                     <div className="flex flex-wrap gap-2">
                       {pillar.capabilities.map((cap) => (
-                        <span key={cap} className="font-mono text-xs text-muted border border-muted/20 px-2 py-1">{cap}</span>
+                        <span key={cap} className="font-body text-xs text-muted bg-white border border-border px-2.5 py-1 rounded-sm">{cap}</span>
                       ))}
                     </div>
                   </div>
-                  <div className="bg-card border border-border p-6">
-                    <p className="font-mono text-xs text-amber tracking-widest uppercase mb-4">Use Cases</p>
+                  <div className="bg-background border border-border p-6 rounded-sm">
+                    <p className="font-body text-xs font-semibold text-amber tracking-[0.15em] uppercase mb-4">Use Cases</p>
                     <ul className="space-y-3">
                       {pillar.use_cases.map((uc) => (
                         <li key={uc} className="flex items-start gap-3">
-                          <span className="text-cyan mt-1 shrink-0">→</span>
-                          <span className="font-body text-sm text-muted leading-relaxed">{uc}</span>
+                          <span className="text-cyan mt-0.5 shrink-0 font-body text-sm">→</span>
+                          <span className="font-body text-sm text-ink-secondary leading-relaxed">{uc}</span>
                         </li>
                       ))}
                     </ul>
@@ -97,14 +99,11 @@ export default async function ServicesPage() {
       })}
 
       {/* CTA Banner */}
-      <section className="relative border-t border-border py-20 overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none" style={{ background: 'linear-gradient(90deg, rgba(0,200,180,0.04), transparent)' }} />
-        <div className="absolute top-4 left-4 w-6 h-6 border-t-2 border-l-2 border-cyan/40" />
-        <div className="absolute bottom-4 right-4 w-6 h-6 border-b-2 border-r-2 border-amber/40" />
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="bg-ink py-20 px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto">
           <FadeUp>
-            <h2 className="font-display text-4xl sm:text-5xl text-white tracking-widest mb-4">{t('cta_banner.title')}</h2>
-            <p className="font-body text-muted mb-8">{t('cta_banner.sub')}</p>
+            <h2 className="font-display text-4xl sm:text-5xl text-white tracking-wide mb-4">{t('cta_banner.title')}</h2>
+            <p className="font-body text-base text-white/60 mb-8 max-w-xl">{t('cta_banner.sub')}</p>
             <Button href={`/${locale}/contact`} variant="primary">{t('cta_banner.cta')}</Button>
           </FadeUp>
         </div>

@@ -62,7 +62,7 @@ export default async function HomePage() {
                 </span>
                 <span
                   className="block text-5xl sm:text-6xl lg:text-7xl xl:text-8xl tracking-wide"
-                  style={{ WebkitTextStroke: '1px rgba(15,25,35,0.2)', color: 'transparent' }}
+                  style={{ WebkitTextStroke: '1.5px rgba(15,25,35,0.25)', color: 'transparent' }}
                 >
                   {t('hero.h1_line3')}
                 </span>

@@ -10,10 +10,10 @@ interface TrainingCardProps {
   enrollHref: string
 }
 
-const levelStyles: Record<string, string> = {
-  Beginner: 'text-emerald-400 border-emerald-400/30',
-  Intermediate: 'text-cyan border-cyan/30',
-  Advanced: 'text-amber border-amber/30',
+const levelColors: Record<string, string> = {
+  Beginner: 'text-cyan bg-cyan-light',
+  Intermediate: 'text-amber bg-amber/10',
+  Advanced: 'text-ink-secondary bg-background',
 }
 
 export default function TrainingCard({
@@ -24,19 +24,19 @@ export default function TrainingCard({
   enrollLabel,
   enrollHref,
 }: TrainingCardProps) {
-  const borderStyle =
+  const accentBorder =
     variant === 'b2b'
       ? 'border-cyan/20 hover:border-cyan/40'
       : 'border-amber/20 hover:border-amber/40'
 
   return (
-    <div className={`bg-card border ${borderStyle} p-6 transition-all duration-300 hover:-translate-y-1`}>
-      <h3 className="font-display text-lg text-white tracking-wider mb-3">{title}</h3>
-      <div className="flex items-center gap-3 mb-5 flex-wrap">
-        <span className="font-mono text-xs text-muted border border-muted/20 px-2 py-1">
+    <div className={`bg-white border ${accentBorder} p-6 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-sm rounded-sm`}>
+      <h3 className="font-display text-xl text-ink tracking-wide mb-4 leading-tight">{title}</h3>
+      <div className="flex items-center gap-2 mb-6 flex-wrap">
+        <span className="font-body text-xs font-medium text-muted bg-background border border-border px-2.5 py-1 rounded-sm">
           {duration}
         </span>
-        <span className={`font-mono text-xs border px-2 py-1 ${levelStyles[level]}`}>
+        <span className={`font-body text-xs font-semibold px-2.5 py-1 rounded-sm ${levelColors[level]}`}>
           {level}
         </span>
       </div>

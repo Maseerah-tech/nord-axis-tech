@@ -24,7 +24,7 @@ export default function Navbar() {
   ]
 
   return (
-    <header className="fixed top-0 inset-x-0 z-50 border-b border-[rgba(15,25,35,0.1)] bg-white/90 backdrop-blur-md">
+    <header className="fixed top-0 inset-x-0 z-50 border-b border-[rgba(15,25,35,0.09)] bg-white/95 backdrop-blur-md">
       <nav className="max-w-7xl mx-auto px-6 lg:px-8 h-16 flex items-center justify-between gap-8">
         {/* Logo */}
         <Link href={`/${locale}`} className="font-display text-xl tracking-widest shrink-0">
@@ -53,12 +53,12 @@ export default function Navbar() {
 
         {/* Locale switcher + CTA */}
         <div className="hidden md:flex items-center gap-5">
-          <div className="flex gap-1 border border-border rounded-sm overflow-hidden">
+          <div className="flex border border-border-strong rounded-sm overflow-hidden">
             {(['en', 'fr', 'ar'] as const).map((loc) => (
               <Link
                 key={loc}
                 href={`/${loc}${pathWithoutLocale}`}
-                className={`font-mono text-xs px-2.5 py-1.5 transition-colors ${
+                className={`font-mono text-xs px-3 py-2 transition-colors min-w-[36px] text-center ${
                   locale === loc
                     ? 'bg-cyan text-white'
                     : 'text-muted hover:text-ink'
@@ -78,7 +78,7 @@ export default function Navbar() {
 
         {/* Mobile hamburger */}
         <button
-          className="md:hidden text-muted hover:text-ink transition-colors"
+          className="md:hidden text-muted hover:text-ink transition-colors p-1"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
           aria-expanded={open}
@@ -94,18 +94,18 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className="font-body text-sm font-medium text-ink-secondary hover:text-ink transition-colors"
+              className="font-body text-sm font-medium text-ink-secondary hover:text-ink transition-colors py-1"
               onClick={() => setOpen(false)}
             >
               {t(link.key as any)}
             </Link>
           ))}
-          <div className="flex gap-1 border border-border rounded-sm overflow-hidden self-start pt-4">
+          <div className="flex border border-border-strong rounded-sm overflow-hidden self-start mt-2">
             {(['en', 'fr', 'ar'] as const).map((loc) => (
               <Link
                 key={loc}
                 href={`/${loc}${pathWithoutLocale}`}
-                className={`font-mono text-xs px-2.5 py-1.5 transition-colors ${
+                className={`font-mono text-xs px-3 py-2 transition-colors min-w-[36px] text-center ${
                   locale === loc ? 'bg-cyan text-white' : 'text-muted'
                 }`}
                 onClick={() => setOpen(false)}
@@ -116,7 +116,7 @@ export default function Navbar() {
           </div>
           <Link
             href={`/${locale}/contact`}
-            className="font-body text-sm font-semibold tracking-wide bg-ink text-white px-5 py-2 text-center hover:bg-ink-secondary transition-colors rounded-sm"
+            className="font-body text-sm font-semibold tracking-wide bg-ink text-white px-5 py-3 text-center hover:bg-ink-secondary transition-colors rounded-sm"
             onClick={() => setOpen(false)}
           >
             {t('cta')}
